@@ -1,0 +1,7 @@
+numpy==1.16.4
+Flask==0.10.1
+pytesseract==0.3.0
+date_extractor==4.0.6
+opencv_python_headless==4.1.2.30
+scikit_image==0.16.2
+imutils==0.5.3

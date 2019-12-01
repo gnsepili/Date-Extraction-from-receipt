@@ -1,1 +1,7 @@
 # flyeAssignment
+
+This project is a part of flye assignment. In this assignment I'm asked to extract date of an image receipt and POST over a REST API. 
+## Installation
+1) Clone the git repo 
+```bash git clone https://github.com/capgos17/flyeAssignment```
+2) run the code app.py.
