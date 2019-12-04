@@ -4,8 +4,9 @@ import cv2
 import imutils
 import pytesseract
 
-def imgPreprocessing(img):
-	image = cv2.imread(img)
+def imgPreprocessing(image):
+	print("wnenverqocmq3o----",type(image))
+	# print("immmmmmg",image)
 	ratio = image.shape[0] / 500.0
 	orig = image.copy()
 	image = imutils.resize(image, height = 500)
@@ -38,4 +39,5 @@ def imgPreprocessing(img):
 			T = threshold_local(warped, 11, offset = 10, method = "gaussian")
 			warped = (warped > T).astype("uint8") * 255
 			return warped
-			break
+
+# cv2.imshow(imgPreprocessing("data/0a0ebd53.jpeg"))
