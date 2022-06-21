@@ -1,4 +1,4 @@
-numpy==1.16.4
+numpy==1.22.0
 Flask==1.1.1
 pytesseract==0.3.0
 date_extractor==4.0.6
